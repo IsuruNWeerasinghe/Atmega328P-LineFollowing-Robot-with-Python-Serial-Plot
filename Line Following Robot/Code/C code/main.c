@@ -2,8 +2,8 @@
  Motor Drive	Arduino		ATMEGA328P
  	INA      		D9			    PB1				PWM B
  	INB			    D13		  	  PB5				Dir B
- 	INC 			D12	   		  PB4				Dir A
- 	IND 			D10  		    PB2				PWM A
+ 	INC 			  D12	   		  PB4				Dir A
+ 	IND 			  D10  		    PB2				PWM A
 
  	move(dir,Lspeed,Rspeed) ---->>> dir[1=forward, 0=backward]  if forward speed[50000 --> 5000]		if backward speed[5000 --> 50000]
  	turn(dir,speed) ---->>> dir[1=left, 0=right]
